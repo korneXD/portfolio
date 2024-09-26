@@ -282,6 +282,7 @@ const ShaderMaterial = ({
     });
 
     return materialObject;
+    // eslint-disable-next-line
   }, [size.width, size.height, source]);
 
   return (
