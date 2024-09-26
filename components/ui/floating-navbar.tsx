@@ -60,7 +60,7 @@ export const FloatingNav = ({
           className
         )}
       >
-        // eslint-disable-next-line
+        {/* eslint-disable-next-line */}
         {navItems.map((navItem: any, idx: number) => (
           <Link
             key={`link=${idx}`}
