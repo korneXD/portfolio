@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { BackgroundLines } from "@/components/ui/background-lines";
 import { FlipWords } from "@/components/ui/flip-words";
 
@@ -9,10 +10,10 @@ export const Hero = () => {
     <BackgroundLines className="h-screen flex flex-col items-center justify-center w-full px-4 bg-black">
       <div className="pb-20 pt-36 flex flex-col">
         <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-500 to-neutral-50 text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
-          Halmosi Kornel's <br /> Portfolio Site
+          Halmosi Kornel&apos;s <br /> Portfolio Site
         </h2>
-        <img
-          src="memoji.jpg"
+        <Image
+          src="./memoji.jpg"
           alt="Memoji"
           className="relative h-64 w-64 mx-auto z-20"
         />
