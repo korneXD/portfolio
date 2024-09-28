@@ -15,7 +15,9 @@ export const Hero = () => {
         <Image
           src="./memoji.jpg"
           alt="Memoji"
-          className="relative h-64 w-64 mx-auto z-20"
+          className="relative mx-auto z-20"
+          width={256}
+          height={256}
         />
         <div className="relative z-20 max-w-xl mx-auto text-sm md:text-lg text-white text-center">
           Learning
